@@ -21,7 +21,7 @@ class Prodotto {
     return
     $this->nome . PHP_EOL .
     $this->categoria . PHP_EOL . 
-    $this->prezzo . ' €';
+    $this->prezzo . ' €'. PHP_EOL;
   }
 
 }
