@@ -19,9 +19,9 @@ class Prodotto {
   public function getInfo()
   {
     return
-    "$this->nome PHP_EOL
-    $this->categoria PHP_EOL
-    $this->prezzo PHP_EOL";
+    $this->nome . PHP_EOL .
+    $this->categoria . PHP_EOL . 
+    $this->prezzo . ' €';
   }
 
 }

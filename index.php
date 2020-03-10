@@ -1,5 +1,5 @@
 <?php 
-require_once 'prodotto.php';
+require_once 'classes/prodotto.php';
 
 
 $macbook = new Prodotto('Macbook', 'computer', 1300);
